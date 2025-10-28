@@ -7,8 +7,8 @@ public class bree1038 {
         Scanner sc = new Scanner(System.in);
 
         // VARIÁVEIS E ENTRADA
-        int codigo = sc.nextInt();
-        int quantidade = sc.nextInt();
+        int codigo = sc.nextInt(); // DIGITE O CÓDIGO DO PRODUTO
+        int quantidade = sc.nextInt(); // DIGITE A QUANTIDADE DO PRODUTO
         double total;
 
         // ESTRUTURA CONDICIONAL
