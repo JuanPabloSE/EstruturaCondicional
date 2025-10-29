@@ -50,11 +50,12 @@ public class bree1045 {
             }
         }
 
-        // TIPO DE TRIÂNGULO
+        // TRIÂNGULO
 
         if (A >= B + C){
             System.out.println("NAO FORMA TRIANGULO");
         }
+        // TESTE - ÂNGULOS DO TRIÂNGULO
         else if (Math.pow(A, 2) == Math.pow(B, 2) + Math.pow(C, 2)){
             System.out.println("TRIANGULO RETANGULO");
         }
@@ -65,7 +66,7 @@ public class bree1045 {
             System.out.println("TRIANGULO ACUTANGULO");
         }
 
-        // VERIFICAR SE É EQUILATERO OU ISOSCELES
+        // VERIFICAR SE LADOS DO TRIÂNGULO
         if (A == B && B == C){
             System.out.println("TRIANGULO EQUILATERO");
         }
