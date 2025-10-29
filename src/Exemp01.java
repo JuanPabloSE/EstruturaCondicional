@@ -49,7 +49,6 @@ public class Exemp01 {
             System.out.println("___________________________________");
             System.out.println("O aluno está na recuperação!");
             System.out.println("___________________________________");
-
         }
 
         else {
