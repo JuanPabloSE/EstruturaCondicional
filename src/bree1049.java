@@ -61,10 +61,6 @@ public class bree1049 {
             }
         }
 
-
-
-
-
         sc.close();
     }
 }
