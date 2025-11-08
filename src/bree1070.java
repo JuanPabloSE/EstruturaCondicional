@@ -7,13 +7,13 @@ public class bree1070 {
         Scanner sc = new Scanner(System.in);
 
         int X = sc.nextInt();
-        int contador = 1;
+        int contador = 0;
 
         if (X % 2 == 0){
             X++;
         }
 
-        while (contador <= 6) {
+        while (contador < 6) {
             if (X % 2 != 0){
                 System.out.println(X);
                 X += 2;
