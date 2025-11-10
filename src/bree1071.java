@@ -13,13 +13,13 @@ public class bree1071 {
         int maior = Math.max(X, Y);
         int menor = Math.min(X, Y);
 
-        int i = menor + 1;
+        int contador = menor + 1;
 
-        while (i < maior) {
-            if (i % 2 != 0){
-                soma += i;
+        while (contador < maior) {
+            if (contador % 2 != 0){
+                soma += contador;
             }
-            i++;
+            contador++;
         }
         System.out.println(soma);
 
