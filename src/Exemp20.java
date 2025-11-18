@@ -6,19 +6,24 @@ public class Exemp20 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double peso, altura;
+        System.out.print("Digite seu peso: ");
+        double peso = sc.nextDouble();
+        System.out.print("Digite sua altura: ");
+        double altura = sc.nextDouble();
 
-        while (true){
+        while (peso <= 0){
+            System.out.println("Por favor, informe um peso válido");
+
             System.out.print("Digite seu peso: ");
-             peso = sc.nextDouble();
-            System.out.print("Digite sua altura: ");
-             altura = sc.nextDouble();
+            peso = sc.nextDouble();}
 
-           if (peso > 0 && altura > 0){
-               break;
-           }
-            System.out.println("Valores inválidos! Digite números positivos.");
-        }
+        System.out.println(); // QUEBRA DE LINHA
+
+        while (altura <= 0){
+            System.out.println("Por favor, informe uma altura válida");
+
+            System.out.print("Digite sua altura: ");
+            altura = sc.nextDouble();}
 
         double imc = peso / Math.pow(altura, 2.0);
         String classificacao;
