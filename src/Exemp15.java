@@ -7,7 +7,9 @@ public class Exemp15 {
         Scanner sc = new Scanner(System.in);
 
         int consumo = sc.nextInt();
+        sc.nextLine(); // QUEBRA DE LINHA PENDENTE
         String opcao = sc.next();
+
         double valorPagar;
 
         //Switch Case
