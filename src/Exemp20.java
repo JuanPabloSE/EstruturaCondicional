@@ -24,12 +24,6 @@ public class Exemp20 {
 
         System.out.println(); // QUEBRA DE LINHA
 
-        while (altura <= 0){
-            System.out.println("Por favor, informe uma altura válida");
-
-            System.out.print("Digite sua altura: ");
-            altura = sc.nextDouble();}
-
         double imc = peso / Math.pow(altura, 2.0);
         String classificacao;
 
