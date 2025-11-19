@@ -6,16 +6,21 @@ public class Exemp20 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite seu peso: ");
-        double peso = sc.nextDouble();
-        System.out.print("Digite sua altura: ");
-        double altura = sc.nextDouble();
+        double peso, altura;
 
-        while (peso <= 0){
-            System.out.println("Por favor, informe um peso válido");
-
+        while (true){
             System.out.print("Digite seu peso: ");
-            peso = sc.nextDouble();}
+            peso = sc.nextDouble();
+            System.out.print("Digite seu altura: ");
+            altura = sc.nextDouble();
+
+            if (peso > 0 && altura > 0){
+                break;
+            }
+            System.out.println(); // QUEBRA DE LINHA
+            System.out.println("DIGITE PESO E ALTURA VÁLIDOS !");
+            System.out.println(); // QUEBRA DE LINHA
+        }
 
         System.out.println(); // QUEBRA DE LINHA
 
